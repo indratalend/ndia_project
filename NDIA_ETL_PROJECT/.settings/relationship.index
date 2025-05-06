@@ -39,6 +39,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_KZIf0CqDEfCKruPjYVPoww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_IRK_sCqBEfCKruPjYVPoww",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Ym2d0Cn2EfCqX7NUtVY4zg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Ym2d0Cn2EfCqX7NUtVY4zg - RAW_ACCOUNT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Ym2d0Cn2EfCqX7NUtVY4zg - RAW_CASE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Ym2d0Cn2EfCqX7NUtVY4zg - RAW_CONTACT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_OMkTACp0EfCc1-B3Tbv3sA",
     "version" : "0.1",
     "type" : "job"
@@ -129,6 +156,14 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_IRK_sCqBEfCKruPjYVPoww",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_K5oUUCoAEfCqX7NUtVY4zg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_Ym2d0Cn2EfCqX7NUtVY4zg",
     "version" : "Latest",
     "type" : "property"
@@ -157,6 +192,29 @@
     "type" : "context"
   }, {
     "id" : "_Z6K5IGACEeqWSujiAV4EWg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_s-3kwCqDEfCKruPjYVPoww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_yVNXUCqDEfCKruPjYVPoww",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_K5oUUCoAEfCqX7NUtVY4zg - VALID_ACCOUNT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_K5oUUCoAEfCqX7NUtVY4zg - VALID_CASE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_K5oUUCoAEfCqX7NUtVY4zg - VALID_CONTACT",
     "version" : "Latest",
     "type" : "schema"
   } ]
