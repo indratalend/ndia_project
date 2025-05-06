@@ -101,16 +101,7 @@
   </parameters>
   <node componentName="JDBCConnection" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="40" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="JDBCConnection" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0Connection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="2" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="JDBC" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_yVNXUCqDEfCKruPjYVPoww"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
@@ -140,7 +131,6 @@
     <elementParameter field="TEXT" name="configuration.connectionTimeOut" value="30" show="false"/>
     <elementParameter field="TEXT" name="configuration.connectionValidationTimeOut" value="10" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
-    <elementParameter field="TEXT" name="___TACOKIT_COMPONENT_PLUGIN_NAME___" value="newjdbc" show="false"/>
     <metadata connector="FLOW" name="tDBConnection_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
@@ -1203,8 +1193,8 @@
   <connection connectorName="TABLE" label="case1" lineStyle="9" metaname="tELTInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTInput_1" target="tELTMap_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tELTInput_1" show="false"/>
   </connection>
-  <note opaque="true" posX="240" posY="0" sizeHeight="80" sizeWidth="641" text="Data Ingestion (ELT) BRONZE to SILVER (SNOWFLAKE)">
-    <elementParameter field="COLOR" name="NOTE_COLOR" value="0;128;0"/>
+  <note opaque="true" posX="240" posY="0" sizeHeight="80" sizeWidth="641" text="Data Ingestion (ELT) SILVER to GOLD (SNOWFLAKE)">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>

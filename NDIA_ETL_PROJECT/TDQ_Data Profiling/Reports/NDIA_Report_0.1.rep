@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_YjCt4CqQEfCKruPjYVPoww" name="NDIA_Report" creationDate="2025-05-07T01:40:05.943+1000" logo="C:\Customer\NDIA\Data Profiling Reports\NDIS.png" defaultContext="Default">
+  <clientDependency href="../Analyses/BCA_SFDC_Account_0.1.ana#_3Ss5ICqQEfCKruPjYVPoww"/>
+  <clientDependency href="../Analyses/BCA_SFDC_Case_0.1.ana#_XLEY4CqREfCKruPjYVPoww"/>
+  <clientDependency href="../Analyses/BCA_SFDC_Contact_0.1.ana#_XLR0QCqREfCKruPjYVPoww"/>
+  <taggedValue xmi:id="_YjCt4SqQEfCKruPjYVPoww" tag="Status" value="development"/>
+  <taggedValue xmi:id="_YjCt4iqQEfCKruPjYVPoww" tag="Author" value="ilimena@qlik_com"/>
+  <taggedValue xmi:id="_YjCt4yqQEfCKruPjYVPoww" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_YjCt5CqQEfCKruPjYVPoww" tag="Description" value=""/>
+  <taggedValue xmi:id="_YjCt5SqQEfCKruPjYVPoww" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_YjCt5iqQEfCKruPjYVPoww" tag="OutputFolder" value="C:\Customer\NDIA\Data Profiling Reports"/>
+  <taggedValue xmi:id="_YjCt5yqQEfCKruPjYVPoww" tag="REP_DBINFO_DBTYPE" value="Snowflake"/>
+  <taggedValue xmi:id="_YjCt6CqQEfCKruPjYVPoww" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_YjCt6SqQEfCKruPjYVPoww" tag="REP_DBINFO_HOST" value="talend.ap-southeast-2.snowflakecomputing.com"/>
+  <taggedValue xmi:id="_YjCt6iqQEfCKruPjYVPoww" tag="REP_DBINFO_PORT" value="443"/>
+  <taggedValue xmi:id="_YjCt6yqQEfCKruPjYVPoww" tag="REP_DBINFO_WAREHOUSE" value="IGL_WH"/>
+  <taggedValue xmi:id="_YjCt7CqQEfCKruPjYVPoww" tag="REP_DBINFO_DBNAME" value="NDIS_LAKEHOUSE"/>
+  <taggedValue xmi:id="_YjCt7SqQEfCKruPjYVPoww" tag="REP_DBINFO_SCHEMA" value="TALEND_DQ"/>
+  <taggedValue xmi:id="_YjCt7iqQEfCKruPjYVPoww" tag="REP_DBINFO_USER" value="Indra"/>
+  <taggedValue xmi:id="_YjCt7yqQEfCKruPjYVPoww" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:vqa8B4A99w+u1j4ATCCbp2GqXewxwYUOOJh42DKRyfc9RIuQsQ=="/>
+  <taggedValue xmi:id="_YjCt8CqQEfCKruPjYVPoww" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_YjCt8SqQEfCKruPjYVPoww" tag="REP_DBINFO_URL" value="jdbc:snowflake://talend.ap-southeast-2.snowflakecomputing.com:443/?db=NDIS_LAKEHOUSE&amp;schema=TALEND_DQ&amp;warehouse=IGL_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_YjCt8iqQEfCKruPjYVPoww" tag="REP_DBINFO_DRIVER" value="net.snowflake.client.jdbc.SnowflakeDriver"/>
+  <taggedValue xmi:id="_YjCt8yqQEfCKruPjYVPoww" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.SnowflakeDialect"/>
+  <taggedValue xmi:id="_YjCt9CqQEfCKruPjYVPoww" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_3SrrACqQEfCKruPjYVPoww" tag="OutputFileName" value="NDIA_SFDC_Profiling_Reports"/>
+  <taggedValue xmi:id="_3SrrASqQEfCKruPjYVPoww" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_3SrrAiqQEfCKruPjYVPoww" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_3SrrAyqQEfCKruPjYVPoww" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_3SrrBSqQEfCKruPjYVPoww" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_3SrrBiqQEfCKruPjYVPoww" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/BCA_SFDC_Account_0.1.ana#_3LzR0CqOEfCKruPjYVPoww"/>
+  </analysisMap>
+  <analysisMap xmi:id="_XJcoQCqREfCKruPjYVPoww" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/BCA_SFDC_Case_0.1.ana#_7O5T0CqOEfCKruPjYVPoww"/>
+  </analysisMap>
+  <analysisMap xmi:id="_XJcoQSqREfCKruPjYVPoww" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/BCA_SFDC_Contact_0.1.ana#_5kKQUCqOEfCKruPjYVPoww"/>
+  </analysisMap>
+  <context xmi:id="_3SrrBCqQEfCKruPjYVPoww" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>
