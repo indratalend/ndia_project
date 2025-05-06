@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_i0UJwShpEfCw8MQ7pIka0Q" name="customerattribute" dataPackage="_i0UJ0yhpEfCw8MQ7pIka0Q" JSONFilePath="C:/Customer/NDIA/json_Structure.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_i0UJwihpEfCw8MQ7pIka0Q" LimitBoucle="50" AbsoluteXPathQuery="$.root.GetTalendRecord[*]">
+      <schemaTargets xmi:id="_i0UJwyhpEfCw8MQ7pIka0Q" RelativeXPathQuery="CUSTOMER_KEY" TagName="CUSTOMER_KEY"/>
+      <schemaTargets xmi:id="_i0UJxChpEfCw8MQ7pIka0Q" RelativeXPathQuery="CUSTOMER_NAME" TagName="CUSTOMER_NAME"/>
+      <schemaTargets xmi:id="_i0UJxShpEfCw8MQ7pIka0Q" RelativeXPathQuery="STREET_ADDRESS" TagName="STREET_ADDRESS"/>
+      <schemaTargets xmi:id="_i0UJxihpEfCw8MQ7pIka0Q" RelativeXPathQuery="CITY_ADDRESS" TagName="CITY_ADDRESS"/>
+      <schemaTargets xmi:id="_i0UJxyhpEfCw8MQ7pIka0Q" RelativeXPathQuery="STATE" TagName="STATE"/>
+      <schemaTargets xmi:id="_i0UJyChpEfCw8MQ7pIka0Q" RelativeXPathQuery="COUNTRY" TagName="COUNTRY"/>
+      <schemaTargets xmi:id="_i0UJyShpEfCw8MQ7pIka0Q" RelativeXPathQuery="POSTAL_CODE" TagName="POSTAL_CODE"/>
+      <schemaTargets xmi:id="_i0UJyihpEfCw8MQ7pIka0Q" RelativeXPathQuery="DATE_OF_BIRTH" TagName="DATE_OF_BIRTH"/>
+      <schemaTargets xmi:id="_i0UJyyhpEfCw8MQ7pIka0Q" RelativeXPathQuery="PLACE_OF_BIRTH" TagName="PLACE_OF_BIRTH"/>
+      <schemaTargets xmi:id="_i0UJzChpEfCw8MQ7pIka0Q" RelativeXPathQuery="SEX" TagName="SEX"/>
+      <schemaTargets xmi:id="_i0UJzShpEfCw8MQ7pIka0Q" RelativeXPathQuery="ID_TYPE" TagName="ID_TYPE"/>
+      <schemaTargets xmi:id="_i0UJzihpEfCw8MQ7pIka0Q" RelativeXPathQuery="ID_NUMBER" TagName="ID_NUMBER"/>
+      <schemaTargets xmi:id="_i0UJzyhpEfCw8MQ7pIka0Q" RelativeXPathQuery="MOTHER_MAIDEN_NAME" TagName="MOTHER_MAIDEN_NAME"/>
+      <schemaTargets xmi:id="_i0UJ0ChpEfCw8MQ7pIka0Q" RelativeXPathQuery="Email_ADDRESS" TagName="Email_ADDRESS"/>
+      <schemaTargets xmi:id="_i0UJ0ShpEfCw8MQ7pIka0Q" RelativeXPathQuery="MOBILE_PHONE" TagName="MOBILE_PHONE"/>
+      <schemaTargets xmi:id="_i0UJ0ihpEfCw8MQ7pIka0Q" RelativeXPathQuery="IMAGE_URL" TagName="IMAGE_URL"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_i0UJ0yhpEfCw8MQ7pIka0Q" name="default" dataManager="_i0UJwShpEfCw8MQ7pIka0Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_i0UJ1ChpEfCw8MQ7pIka0Q" id="_aTf_QChpEfCw8MQ7pIka0Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0YChpEfCw8MQ7pIka0Q" name="CUSTOMER_KEY" label="CUSTOMER_KEY" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0YShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0YihpEfCw8MQ7pIka0Q" name="CUSTOMER_NAME" label="CUSTOMER_NAME" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0YyhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0ZChpEfCw8MQ7pIka0Q" name="STREET_ADDRESS" label="STREET_ADDRESS" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0ZShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0ZihpEfCw8MQ7pIka0Q" name="CITY_ADDRESS" label="CITY_ADDRESS" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0ZyhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0aChpEfCw8MQ7pIka0Q" name="STATE" label="STATE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0aShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0aihpEfCw8MQ7pIka0Q" name="COUNTRY" label="COUNTRY" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0ayhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0bChpEfCw8MQ7pIka0Q" name="POSTAL_CODE" label="POSTAL_CODE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0bShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0bihpEfCw8MQ7pIka0Q" name="DATE_OF_BIRTH" label="DATE_OF_BIRTH" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0byhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0cChpEfCw8MQ7pIka0Q" name="PLACE_OF_BIRTH" label="PLACE_OF_BIRTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0cShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0cihpEfCw8MQ7pIka0Q" name="SEX" label="SEX" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0cyhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0dChpEfCw8MQ7pIka0Q" name="ID_TYPE" label="ID_TYPE" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0dShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0dihpEfCw8MQ7pIka0Q" name="ID_NUMBER" label="ID_NUMBER" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0dyhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0eChpEfCw8MQ7pIka0Q" name="MOTHER_MAIDEN_NAME" label="MOTHER_MAIDEN_NAME" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0eShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0eihpEfCw8MQ7pIka0Q" name="Email_ADDRESS" label="Email_ADDRESS" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0eyhpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0fChpEfCw8MQ7pIka0Q" name="MOBILE_PHONE" label="MOBILE_PHONE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0fShpEfCw8MQ7pIka0Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_44J0fihpEfCw8MQ7pIka0Q" name="IMAGE_URL" label="IMAGE_URL" length="105" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_44J0fyhpEfCw8MQ7pIka0Q"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
